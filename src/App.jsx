@@ -1,12 +1,14 @@
-import React from "react"
+import React from "react";
+import Header from "./components/Header/Header.jsx";
+import GlobalStyle from "./globalStyles";
 
 function App() {
-
   return (
-    <div className="App">
-      <h1>All about strawberrys</h1>
+    <div>
+      <GlobalStyle />
+      <Header />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
